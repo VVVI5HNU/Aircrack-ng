@@ -118,7 +118,7 @@ sudo gzip -d /usr/share/wordlists/rockyou.txt.gz
 
 ---
 
-### 🔓 10️⃣ Crack the Handshake
+### 🔓 1️⃣0️⃣ Crack the Handshake
 
 ```bash
 sudo aircrack-ng captures-01.cap -w /usr/share/wordlists/rockyou.txt
