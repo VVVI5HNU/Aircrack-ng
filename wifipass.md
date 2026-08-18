@@ -123,6 +123,10 @@ sudo gzip -d /usr/share/wordlists/rockyou.txt.gz
 ```bash
 sudo aircrack-ng captures-01.cap -w /usr/share/wordlists/rockyou.txt
 ```
+If you found PMKID
+```
+sudo hashcat -m 22000 -a 0 pmkid_xxxxxxxx_xx-xx-xx-xx-xx-xx_xxxx-xx-xxxxx-xx-xx.22000 /home/kali/Desktop/rockyou.txt 
+```
 
 ✅ If the password exists in the wordlist, it will be revealed.
 
@@ -141,5 +145,3 @@ This guide is intended for:
 ---
 
 🔐 *Learn. Practice. Respect digital boundaries.*
-
-```
